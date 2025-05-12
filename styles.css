@@ -4,10 +4,28 @@ Añade estilos a los elementos de la página HTML.
 */
 
 body {
+    justify-content: center;
     font-family: sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+}
+#contenido-principal{
+    display: flexbox;
+    padding: 1rem;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+h1 {
+    background-color: #4CAF50;
+}
+h2 {
+    background-color: aquamarine;
+}
+section h2{
+    background-color: aliceblue;
 }
 
 header {
@@ -20,7 +38,11 @@ header {
 main {
     padding: 20px;
 }
-
+#formulario-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 section {
     margin-bottom: 20px;
 }
@@ -62,3 +84,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+/* Fiona Sofia Maggiolo Torrico */
